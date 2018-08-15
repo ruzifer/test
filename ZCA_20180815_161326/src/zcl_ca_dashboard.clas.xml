@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CA_DASHBOARD</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Dashboard</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSFINAL>X</CLSFINAL>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_DASHBOARD</CLSNAME>
+     <CMPNAME>GENERATE_SPOOL_FROM_PROXY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Generate spool for ABAP Proxy interface</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_DASHBOARD</CLSNAME>
+     <CMPNAME>GET_DASHBOARD_TIMESTAMP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get timestamp for using in Dashboard</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_DASHBOARD</CLSNAME>
+     <CMPNAME>UPDATE_INTF_LOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Update interface log table ZTCA_INTF_LOG</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_DASHBOARD</CLSNAME>
+     <CMPNAME>WRITE_JOB_LOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Write log to job log (SM37)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_DASHBOARD</CLSNAME>
+     <CMPNAME>WRITE_SPOOL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Write log to spool</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

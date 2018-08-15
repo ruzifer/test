@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZCA_PROGRAMM</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>PROGRAMM</DOMNAME>
+    <MEMORYID>RID</MEMORYID>
+    <HEADLEN>08</HEADLEN>
+    <SCRLEN1>08</SCRLEN1>
+    <SCRLEN2>12</SCRLEN2>
+    <SCRLEN3>12</SCRLEN3>
+    <DDTEXT>ABAP Program Name</DDTEXT>
+    <REPTEXT>Program</REPTEXT>
+    <SCRTEXT_S>Program</SCRTEXT_S>
+    <SCRTEXT_M>Program Name</SCRTEXT_M>
+    <SCRTEXT_L>Program Name</SCRTEXT_L>
+    <APPLCLASS>SAB4</APPLCLASS>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <TPARA>
+    <PARAMID>RID</PARAMID>
+    <PARTEXT>ABAP/4 program name</PARTEXT>
+   </TPARA>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>ABAP-Programmname</DDTEXT>
+     <REPTEXT>Programm</REPTEXT>
+     <SCRTEXT_S>Programm</SCRTEXT_S>
+     <SCRTEXT_M>Programmname</SCRTEXT_M>
+     <SCRTEXT_L>Programmname</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

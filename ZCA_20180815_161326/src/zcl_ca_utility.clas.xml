@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Cross Application Program Utility</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSFINAL>X</CLSFINAL>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <MSG_ID>ZCA00</MSG_ID>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>EN1</KEY>
+     <ENTRY>Tel.</ENTRY>
+     <LENGTH>14</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>EN2</KEY>
+     <ENTRY>Fax.</ENTRY>
+     <LENGTH>14</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>EN3</KEY>
+     <ENTRY>Ext.</ENTRY>
+     <LENGTH>14</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L01</KEY>
+     <ENTRY>*&amp;---------------------------------------------------------------------*</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>TH1</KEY>
+     <ENTRY>โทร</ENTRY>
+     <LENGTH>13</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>TH2</KEY>
+     <ENTRY>แฟกซ์.</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>TH3</KEY>
+     <ENTRY>ต่อ</ENTRY>
+     <LENGTH>13</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>ZH1</KEY>
+     <ENTRY>电话:</ENTRY>
+     <LENGTH>13</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>ZH2</KEY>
+     <ENTRY>传真:</ENTRY>
+     <LENGTH>13</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>ASSIGN_VALUE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assign value with conversion</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>CC_TYPE_FAX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Fax</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>CC_TYPE_TEL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Telephone</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application log: CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>CONVERT_MATERIAL_UNIT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Convert material unit</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>CREATE_DYNAMIC_TABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create dynamic table based on field catalog</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>CURR_AMOUNT_DISPLAY_TO_SAP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Keep amount in Display mode to SAP DB</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>CURR_AMOUNT_SAP_TO_DISPLAY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Show amount in Display mode from SAP DB</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>DATABASE_EXPORT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Export from database</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>DATABASE_IMPORT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Import from database</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>GENERATE_ABAP_TEMPLATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Generate Abap coding template</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>GET_STRING_WIDTH</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get String width from DeviceType/Font/FontSize settings</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>GET_TELFAX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Telephone/Fax number (with formatting)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>GET_VALUE_DYNAMIC</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get value from Dynamic Structure</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>IMPORT_CSV_TO_INT_TABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read CSV file to internal table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>IMPORT_FILE_TO_INT_TABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read data file to internal table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>LOG_ADD_MESSAGE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application log: Add Message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>LOG_ADD_MESSAGE_FREE_TEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application log: Add Message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>LOG_CLEAR_ALL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application log: Clear all logs in memory</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>LOG_CREATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application log: Initialize Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>LOG_DELETE_MESSAGE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application log: Delete All Message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>LOG_LOAD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application log: Load Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>LOG_REFRESH</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application log: Remove Log from Main Memory</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>LOG_SAVE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application log: Save Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>LOG_SHOW</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application log: Display Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>MOVE_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Move data between two structure</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>READ_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read address (with formatting) from address number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>READ_LONG_TEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read Long Text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>READ_ONE_TIME_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read one-time address (with formatting) from document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>READ_VARIABLE_VALUE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read variable values from ZTCA_VARV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>SET_FORMAT_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set Address formatting</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>SET_FORMAT_ONETIME_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set One-Time Address formatting</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>SET_VALUE_DYNAMIC</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set value to Dynamic Structure</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>SPELL_AMOUNT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Spell Amount</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>SPELL_CHINESE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Spell Chinese wording</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>SPELL_QUANTITY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Spell Quantity</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>SV_HANDLER_REGISTERED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Single-Character Flag</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>SW_LOG_COLOURS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Display: Problem class colors</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>UPLOAD_EXCEL_FILE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Upload excel type file (CSV, XLS, XLSX) with OLE</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILITY</CLSNAME>
+     <CMPNAME>UPLOAD_TEXT_FILE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Upload text type file (text with tab delimited)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
