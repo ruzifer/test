@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Function group for Application Log</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZCA_APPLOGTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZCA_APPLOG</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZCA_APP_LOG_CREATE</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Create Application Log</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_OBJECT</PARAMETER>
+       <TYP>BALOBJ_D</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_SUBOBJECT</PARAMETER>
+       <TYP>BALSUBOBJ</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_EXT_NO</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BALNREXT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_TEXT</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZTTCA_MESSAGE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EX_RETURN</PARAMETER>
+       <TYP>BAPIRET2_TAB</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_OBJECT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Application log: Object name (Application code)</STEXT>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_SUBOBJECT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Application Log: Subobject</STEXT>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_EXT_NO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Application Log: External ID</STEXT>
+       <INDEX> 003</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_TEXT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table type of message type &amp; text</STEXT>
+       <INDEX> 004</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Error Messages</STEXT>
+       <INDEX> 005</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZCA_APP_LOG_WITH_LOGNO</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Get application log from log number</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_LOGNUMBER</PARAMETER>
+       <TYP>BALHDR-LOGNUMBER</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>TT_RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_LOGNUMBER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Application log: log number</STEXT>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TT_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Return Parameter</STEXT>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZCA_IDOC_STATUS_GET</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Get IDoc status and messages</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_DOCNUM</PARAMETER>
+       <TYP>EDI_DOCNUM</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>TT_RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_DOCNUM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>IDoc number</STEXT>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TT_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Return Parameter</STEXT>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

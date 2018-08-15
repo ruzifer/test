@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>ZCA_INTFTYPE</DOMNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000005</LENG>
+    <OUTPUTLEN>000005</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Interface type</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>ZCA_INTFTYPE</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>IDOC</DOMVALUE_L>
+     <DDTEXT>ALE-IDoc</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZCA_INTFTYPE</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>SOAP</DOMVALUE_L>
+     <DDTEXT>Simple Object Access Protocol web service</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZCA_INTFTYPE</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>REST</DOMVALUE_L>
+     <DDTEXT>Representational State Transfer web service</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZCA_INTFTYPE</DOMNAME>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>FTP</DOMVALUE_L>
+     <DDTEXT>File Transfer Protocol</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZCA_INTFTYPE</DOMNAME>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>SFTP</DOMVALUE_L>
+     <DDTEXT>Secure File Transfer Protocol</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZCA_INTFTYPE</DOMNAME>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>NFS</DOMVALUE_L>
+     <DDTEXT>Network File System</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZCA_INTFTYPE</DOMNAME>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>ABAP</DOMVALUE_L>
+     <DDTEXT>ABAP Proxy</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

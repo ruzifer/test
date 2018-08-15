@@ -1,0 +1,644 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZCA00</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Cross Application</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>&amp;1&amp;2&amp;3&amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>&amp;1&amp;2&amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>&amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>&amp;1&amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>&amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>You are not authorized to use function &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>You are not authorized to use Transaction &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>You are not authorized to &amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>No authorization for object &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>No RFC authorization for user &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>&lt;reserved for authorized error message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>&lt;reserved for authorized error message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>&lt;reserved for authorized error message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>&lt;reserved for authorized error message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>&lt;reserved for authorized error message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>&lt;reserved for authorized error message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>&lt;reserved for authorized error message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>&lt;reserved for authorized error message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>&lt;reserved for authorized error message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Fill in all required entry fields</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Field &lt;&amp;1&gt; is mandatory. Please fill in the value.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>&amp;1 is empty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>&amp;1 is required.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Entry &amp;1 &amp;2 &amp;3 does not exist in &amp;4 (check entry)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Internal table &amp;1 does not exist or is empty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>&amp;1 &amp;2 does not exist.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>&lt;reserved for required field error message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>&lt;reserved for required field error message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>&lt;reserved for required field error message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Enter a valid value</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Enter a numeric value</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Decimal places are not permitted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Input must be in the format &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Lower limit &gt; Upper limit, please correct.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Invalid date &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Enter date in the format &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Invalid time &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>Enter time in the format &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>&lt;reserved for validate checking error message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>&lt;reserved for validate checking error message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>&lt;reserved for validate checking error message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>&lt;reserved for validate checking error message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>&lt;reserved for validate checking error message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>&lt;reserved for validate checking error message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>&lt;reserved for validate checking error message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>&lt;reserved for validate checking error message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>&lt;reserved for validate checking error message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>&lt;reserved for validate checking error message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>&lt;reserved for validate checking error message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>Download data failed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>Download data completed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>Upload data failed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>Upload data completed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>This program is not support &amp;1 file format.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>File extension must be in .&amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>Not found data in file</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>Unable to read file.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>Unable to upload the file</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Unable to download the file</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>&lt;reserved for download/upload message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>&lt;reserved for download/upload message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>&lt;reserved for download/upload message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>&lt;reserved for download/upload message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>&lt;reserved for download/upload message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>&lt;reserved for download/upload message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>067</MSGNR>
+     <TEXT>&lt;reserved for download/upload message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>068</MSGNR>
+     <TEXT>&lt;reserved for download/upload message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>069</MSGNR>
+     <TEXT>&lt;reserved for download/upload message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>&lt;reserved for download/upload message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>071</MSGNR>
+     <TEXT>No data found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>072</MSGNR>
+     <TEXT>Data does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>073</MSGNR>
+     <TEXT>Unit conversion failed from &amp;1 &amp;2 to &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>074</MSGNR>
+     <TEXT>No &amp;1 were selected</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>075</MSGNR>
+     <TEXT>&amp;1 &amp;2 deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>076</MSGNR>
+     <TEXT>&amp;1 &amp;2 could not be deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>077</MSGNR>
+     <TEXT>Total &amp;1 &amp;2 &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>078</MSGNR>
+     <TEXT>Log no &amp;1 was created.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>079</MSGNR>
+     <TEXT>Error when create application log.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>080</MSGNR>
+     <TEXT>&amp;1|&amp;2|&amp;3|&amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>081</MSGNR>
+     <TEXT>Stage 0: Execute Background Job: &amp;1, Program: &amp;2, Variant: &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>082</MSGNR>
+     <TEXT>Stage 1: &amp;1 , &amp;2: &amp;3 is processed. &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>083</MSGNR>
+     <TEXT>Stage 2: &amp;1 , &amp;2: &amp;3 is processed. &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>084</MSGNR>
+     <TEXT>Stage 3: &amp;1 , &amp;2: &amp;3 is processed. &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>085</MSGNR>
+     <TEXT>Stage 0: interface is triggered.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>086</MSGNR>
+     <TEXT>Stage 0: Found &amp;1 files in &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>087</MSGNR>
+     <TEXT>Stage 1: Filename &amp;1 is processed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>088</MSGNR>
+     <TEXT>Stage 2: Filename &amp;1 with Message ID: &amp;2 is processed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>089</MSGNR>
+     <TEXT>Stage 3: Filename &amp;1 with &amp;2: &amp;3 is processed. &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>090</MSGNR>
+     <TEXT>Stage 1: Message ID. &amp;1 is processed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>091</MSGNR>
+     <TEXT>Stage 2: Message ID. &amp;1 is processed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>092</MSGNR>
+     <TEXT>Stage 3: Message ID. &amp;1 is processed. &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>093</MSGNR>
+     <TEXT>&lt;reserved for abap message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>094</MSGNR>
+     <TEXT>&lt;reserved for abap message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>095</MSGNR>
+     <TEXT>&lt;reserved for abap message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>096</MSGNR>
+     <TEXT>&lt;reserved for abap message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>097</MSGNR>
+     <TEXT>&lt;reserved for abap message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>098</MSGNR>
+     <TEXT>&lt;reserved for abap message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>099</MSGNR>
+     <TEXT>&lt;reserved for abap message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>&lt;reserved for abap message&gt;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>This program is not support &amp;1 file format.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>Parameter &amp;2 of Program &amp;1 is not maintained in ZTCA_VARV.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>103</MSGNR>
+     <TEXT>Conversion of &amp; error: &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA00</ARBGB>
+     <MSGNR>104</MSGNR>
+     <TEXT>Logo name &amp;1 is not valid.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

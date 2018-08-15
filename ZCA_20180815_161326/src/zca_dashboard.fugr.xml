@@ -1,0 +1,529 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Dashboard</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZCA_DASHBOARDTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZCA_DASHBOARD</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZCA_DASHBOARD_SPOOLUPD</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Update spool for dashboard monitoring</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_MSGID</PARAMETER>
+       <TYP>SXMSGUID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_INFNAM</PARAMETER>
+       <TYP>ZCA_INTF_INFNAM</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_DIRECTION</PARAMETER>
+       <TYP>ZCA_INTF_TYPE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_INTF_CAT</PARAMETER>
+       <TYP>ZCA_INTF_CATEGORY</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_SENDER</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>SXI_ADDRESS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_RECEIVER</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>SXI_ADDRESS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_ACK</PARAMETER>
+       <TYP>ZTTCA_ACK</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_COMMIT_NOW</PARAMETER>
+       <DEFAULT>&apos;X&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>XFELD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_MSGID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Message ID</STEXT>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_INFNAM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Interface name</STEXT>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_DIRECTION</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Interface direction (OB, IB)</STEXT>
+       <INDEX> 003</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_INTF_CAT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Interface: Category</STEXT>
+       <INDEX> 004</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_SENDER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Sender party</STEXT>
+       <INDEX> 005</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_RECEIVER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Receiver party</STEXT>
+       <INDEX> 006</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_ACK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Ack content</STEXT>
+       <INDEX> 007</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_COMMIT_NOW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Commit now?</STEXT>
+       <INDEX> 008</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZCA_INTF_CREATE_RECORD_ID</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Interface record keep ID.</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_INTF_ID</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZCA_INTF_GUID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_INTF_TYPE</PARAMETER>
+       <TYP>ZCA_INTF_TYPE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_INTF_CATE</PARAMETER>
+       <TYP>ZCA_INTF_CATEGORY</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_INTF_MODULE</PARAMETER>
+       <TYP>ZCA_INTF_MODULE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_INTF_BUS_OBJ</PARAMETER>
+       <TYP>ZCA_INTF_BUS_OBJ</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_INTF_BUSCOMP</PARAMETER>
+       <TYP>ZCA_INTF_RECEIVER</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_MESTYP</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>EDI_MESTYP</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_PARTNER</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>EDIPPARNUM</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_SYSID</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>SYST_SYSID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_DOCNUM</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>EDI_DOCNUM</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_INTF_ACK</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZTTCA_ACK</TYP>
+      </RSIMP>
+     </IMPORT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>CH_INTF_ID</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZCA_INTF_GUID</TYP>
+      </RSCHA>
+     </CHANGING>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>GENERATE_ID_ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_INTF_ID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Interface: ID.</STEXT>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_INTF_TYPE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Interface: Type</STEXT>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_INTF_CATE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Interface: Category</STEXT>
+       <INDEX> 003</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_INTF_MODULE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Interface: Module</STEXT>
+       <INDEX> 004</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_INTF_BUS_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Interface: Business Object Name</STEXT>
+       <INDEX> 005</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_INTF_BUSCOMP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Business Component (Receiver)</STEXT>
+       <INDEX> 006</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_MESTYP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Message type</STEXT>
+       <INDEX> 007</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_PARTNER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Partner number</STEXT>
+       <INDEX> 008</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_SYSID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>ABAP System Field: Name of SAP System</STEXT>
+       <INDEX> 009</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_DOCNUM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>IDoc number</STEXT>
+       <INDEX> 010</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_INTF_ACK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Interface: Acknowledege</STEXT>
+       <INDEX> 011</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CH_INTF_ID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Interface: ID.</STEXT>
+       <INDEX> 012</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GENERATE_ID_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Can&apos;t generate ID</STEXT>
+       <INDEX> 013</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZCA_INTF_CREATE_RECORD_RFC</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Interface call via RFC</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_SYSID</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>SYST_SYSID</TYP>
+      </RSIMP>
+     </IMPORT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>CH_IDOC_CONTROL</PARAMETER>
+       <DBFIELD>EDIDC</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSCHA>
+      <RSCHA>
+       <PARAMETER>CH_INTF_ID</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZCA_INTF_GUID</TYP>
+      </RSCHA>
+      <RSCHA>
+       <PARAMETER>CH_PARTNER</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>EDIPPARNUM</TYP>
+      </RSCHA>
+     </CHANGING>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>IT_IDOC_DATA</PARAMETER>
+       <DBSTRUCT>EDIDD</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>IDOC_INPUT_INCONSISTENT</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_SYSID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>ABAP System Field: Name of SAP System</STEXT>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_IDOC_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Data record (IDoc)</STEXT>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CH_IDOC_CONTROL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Control record (IDoc)</STEXT>
+       <INDEX> 003</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CH_INTF_ID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Character field, length 32</STEXT>
+       <INDEX> 004</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CH_PARTNER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Partner number</STEXT>
+       <INDEX> 005</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IDOC_INPUT_INCONSISTENT</PARAMETER>
+       <KIND>X</KIND>
+       <INDEX> 006</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZCA_INTF_READ_ACKNOWLEDGE</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Read acknowledge for interface</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_INTF_ID</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZCA_INTF_GUID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_INTF_BUS_OBJ</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZCA_INTF_BUS_OBJ</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_INTF_TYPE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZCA_INTF_TYPE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_INTF_CATE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZCA_INTF_CATEGORY</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_INTF_MODULE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZCA_INTF_MODULE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_INTF_LOG</PARAMETER>
+       <TYP>ZCA_INTF_ACKNOWLEDGE</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EV_INTF_ACKNOWLEDGE</PARAMETER>
+       <TYP>ZCA_INTF_ACKNOWLEDGE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_DATA_FOUND</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_INTF_ID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Interface: ID.</STEXT>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_INTF_BUS_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Interface: Business Object Name</STEXT>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_INTF_TYPE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Interface: Type</STEXT>
+       <INDEX> 003</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_INTF_CATE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Interface: Category</STEXT>
+       <INDEX> 004</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_INTF_MODULE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Interface: Module</STEXT>
+       <INDEX> 005</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_INTF_LOG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Interface: Acknowledege</STEXT>
+       <INDEX> 006</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_INTF_ACKNOWLEDGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Interface: Acknowledgement</STEXT>
+       <INDEX> 007</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_DATA_FOUND</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>No data was found</STEXT>
+       <INDEX> 008</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZCA_INTF_READ_ACKNOWLEDGE_ALL</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Read acknowledge for interface</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_INTF_ID</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZCA_INTF_GUID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_INTF_BUS_OBJ</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZCA_INTF_BUS_OBJ</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_INTF_TYPE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZCA_INTF_TYPE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_INTF_CATE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZCA_INTF_CATEGORY</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_INTF_MODULE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZCA_INTF_MODULE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ET_INTF_LOG</PARAMETER>
+       <DBSTRUCT>ZSCA_INTF_ACKNOWLEDGE</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>ET_INTF_ACKNOWLEDGE</PARAMETER>
+       <DBSTRUCT>ZSCA_INTF_ACKNOWLEDGE</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_DATA_FOUND</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_INTF_ID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Interface: GUID Key (IDoc key, Message ID)</STEXT>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_INTF_BUS_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Interface: Business Object Name</STEXT>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_INTF_TYPE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Interface: Type</STEXT>
+       <INDEX> 003</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_INTF_CATE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Interface: Category</STEXT>
+       <INDEX> 004</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_INTF_MODULE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Interface: Module</STEXT>
+       <INDEX> 005</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_INTF_LOG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Interface: Acknowledge</STEXT>
+       <INDEX> 006</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_INTF_ACKNOWLEDGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Interface: Acknowledge</STEXT>
+       <INDEX> 007</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_DATA_FOUND</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>No data was found</STEXT>
+       <INDEX> 008</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
